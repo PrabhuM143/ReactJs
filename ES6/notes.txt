@@ -19,3 +19,54 @@ const{ name,age,address:{city} } = player;
 
 we can access by 
 console.log(`${name}`);
+
+3.Destructuring the array
+
+here we can access the each elements by assigning the seperate name. Like:
+
+const [firstName,middleName,lastName] = ['Prabhu','Sriram','Murthy'];
+lastName = 'Arunachalam';
+
+4.Object literals
+
+function addressMaker(city, state) {
+    const newAdress = {city, state}; // Here instend of giving the new name to the object it recognize the object
+    
+    console.log(newAdress);
+}
+
+addressMaker('Austin', 'Texas');
+
+5.for loop
+
+let incomes = [62000, 67000, 75000];
+let total = 0;
+
+for (const income of incomes) {
+    total += income;
+}
+
+console.log(total);
+
+6.Spread Operator (...NAME OF THE OBJECT OR ARRAY)
+
+let contacts = ["Mary", "Joel", "Danny"];
+
+let personalFriends = [ "David", ...contacts, "Lily" ];
+
+contacts.push("John");
+
+
+let person = {
+    name: "Adam",
+    age: 25,
+    city: "Manchester"
+}
+
+let employee = {
+    ...person,
+    salary: 50000,
+    position: "Software Developer"
+}
+
+console.log(employee);
