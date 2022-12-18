@@ -1,2 +1,11 @@
 Hii ME,
 This is for the steps that i gonna do to learn the reactjs.
+
+Topic that are need to be studied:
+Javascript:
+1.this keyword 
+2.filter
+3.map
+4.reduce
+ES6:
+let and const,arrow function,template literals,default parameter,objects literals,rest and spread operations and destructing assignment
