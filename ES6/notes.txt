@@ -1,0 +1,21 @@
+In ES6 
+
+1.template literals =>  `${name}`
+
+2.destructuring the objects:{
+    example: 
+    const player = {
+        name: "Prabhu",
+        age: "19",
+        address:{
+            city: "chennai"
+        }
+    }
+}
+
+destructured to =>
+
+const{ name,age,address:{city} } = player;
+
+we can access by 
+console.log(`${name}`);
