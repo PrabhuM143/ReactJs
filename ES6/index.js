@@ -1,3 +1,16 @@
+export class Animal {
+    constructor(type,legs) {
+        this.type = type;
+        this.legs = legs;
+    }
+    makeNoise(sound="Loud"){
+        console.log(sound);
+    }
+    static return0(){
+        return 10;
+    }
+}
+ 
 // let msg1 = "hello";
 // let msg2 = "world";
 
@@ -15,9 +28,9 @@
 
 // console.log(total);
 
-import {data} from './example'
+// import {data} from './example'
 
-let updatedData = data;
-updatedData.push(7);
+// let updatedData = data;
+// updatedData.push(7);
 
-console.log(updatedData);
+// console.log(updatedData);
