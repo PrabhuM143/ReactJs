@@ -6,11 +6,18 @@
 // console.log(msg);
 // document.getElementById(message).innerText=msg;
 
-let incomes = [62000, 67000, 75000];
-let total = 0;
+// let incomes = [62000, 67000, 75000];
+// let total = 0;
 
-for (const income of incomes) {
-    total += income;
-}
+// for (const income of incomes) {
+//     total += income;
+// }
 
-console.log(total);
+// console.log(total);
+
+import {data} from './example'
+
+let updatedData = data;
+updatedData.push(7);
+
+console.log(updatedData);

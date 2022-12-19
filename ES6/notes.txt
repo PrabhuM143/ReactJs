@@ -70,3 +70,14 @@ let employee = {
 }
 
 console.log(employee);
+
+7.Rest Operator
+
+its used in functions
+
+function add(...nums) {
+    
+    console.log(nums);
+}
+
+add(4, 5, 7, 8, 12) // [4,5,7,8,12]
